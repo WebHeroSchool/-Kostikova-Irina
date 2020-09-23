@@ -6,13 +6,11 @@ body {
 }
 .wrapper {
   margin: auto;
-  border: dashed 1px red;
-  width; 80%;
+  width: 80%;
 }
 .header {
   display:flex;
   justify-content: space-between;
-  border: dashed 1px red;
 }
 .logo, .menu {
    display: inline-block;
