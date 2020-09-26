@@ -27,6 +27,7 @@ body {
   height: 35px;
   padding-left: 44px;
   font: bold 24px/31px sp_serif, arial, helvetica, sans-serif;
+  border: dashed 1px red;
 }
 
 .logo__circle {
