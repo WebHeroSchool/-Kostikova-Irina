@@ -30,7 +30,7 @@ body {
   border: dashed 1px red;
 }
 
-.logo__circle {
+.logo__circle_color_dark-blue {
   position: relative;
   left:0;
   top:50%;
@@ -39,10 +39,11 @@ body {
   height: 28px;
   border-radius: 50%;
   opacity: .7;
+  background: #0056EC;
 }
 
-.logo__circle_color_dark-blue {
-  background: #0056EC;
+/* .logo__circle_color_dark-blue { */
+  /* background: #0056EC; */
 }
 
 .logo__circle_color_blue {
