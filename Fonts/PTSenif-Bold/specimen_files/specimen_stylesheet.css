@@ -65,13 +65,14 @@ tfoot,
 thead,
 tr,
 th,
-td { margin: 0;
-     padding: 0;
-     border: 0;
-     outline: 0;
-     font-size: 100%;
-     vertical-align: baseline;
-     background: transparent;
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
@@ -79,17 +80,20 @@ body {
 }
 
 ol,
-ul { list-style: none;
+ul {
+  list-style: none;
 }
 
 blockquote,
-q { quotes: none;
+q {
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
-q:after { content: '';	content: none;
+q:after {
+  content: '';	content: none;
 }
 
 :focus {
@@ -105,7 +109,8 @@ del {
 }
 
 table {
-  border-collapse: collapse;border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 body {
