@@ -5,13 +5,20 @@ Column Width: 55px
 Gutter Width: 15px
 ------------------------------- */
 
-.section { margin-bottom: 18px;
+.section {
+  margin-bottom: 18px;
 }
 
-.section:after { content: ".";display: block;height: 0;clear: both;visibility: hidden;
+.section:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
-.section { *zoom: 1;
+.section {
+  *zoom: 1;
 }
 
 .section .firstcolumn,
@@ -69,7 +76,10 @@ Gutter Width: 15px
 .grid11_3cols,
 .grid11_4cols,
 .grid12 {
-  margin-left: 15px;float: left;display: inline; overflow: hidden;
+  margin-left: 15px;
+  float: left;
+  display: inline;
+  overflow: hidden;
 }
 
 .width1,
@@ -84,7 +94,7 @@ Gutter Width: 15px
 }
 
 .width1_3cols,
-.grid1_3cols  {
+.grid1_3cols {
   width: 8px;
 }
 
@@ -422,7 +432,9 @@ Gutter Width: 15px
 }
 
 .push-1 {
-  margin-right: -70px;margin-left: 18px;float: right;
+  margin-right: -70px;
+  margin-left: 18px;
+  float: right;
 }
 
 .pull-2 {
@@ -430,7 +442,9 @@ Gutter Width: 15px
 }
 
 .push-2 {
-  margin-right: -140px;margin-left: 18px;float: right;
+  margin-right: -140px;
+  margin-left: 18px;
+  float: right;
 }
 
 .pull-3 {
@@ -438,7 +452,9 @@ Gutter Width: 15px
 }
 
 .push-3 {
-  margin-right: -210px;margin-left: 18px;float: right;
+  margin-right: -210px;
+  margin-left: 18px;
+  float: right;
 }
 
 .pull-4 {
@@ -446,5 +462,7 @@ Gutter Width: 15px
 }
 
 .push-4 {
-  margin-right: -280px;margin-left: 18px;float: right;
+  margin-right: -280px;
+  margin-left: 18px;
+  float: right;
 }

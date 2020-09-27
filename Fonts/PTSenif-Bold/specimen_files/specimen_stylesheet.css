@@ -89,10 +89,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote: before,
+blockquote: after,
+q: before,
+q: after {
   content: '';	content: none;
 }
 
@@ -123,14 +123,14 @@ a {
 	color: #1883ba;
 }
 
-h1{
+h1 {
 	font-size: 32px;
 	font-weight: normal;
 	font-style: normal;
 	margin-bottom: 18px;
 }
 
-h2{
+h2 {
 	font-size: 18px;
 }
 
@@ -140,7 +140,7 @@ h2{
 }
 
 #header {
-	padding: 20px;
+  padding: 20px;
 	font-size: 36px;
 	background-color: #000;
 	color: #fff;
@@ -186,12 +186,14 @@ h2{
 	border-right: 1px solid #fff;
 }
 
-.tabs li a:hover {
+.tabs li
+a: hover {
 		background-color: #00b3ff;
 
 }
 
-.tabs li.active a {
+.tabs li
+.active a {
 	color:  #000;
 	background-color: #fff;
 }
