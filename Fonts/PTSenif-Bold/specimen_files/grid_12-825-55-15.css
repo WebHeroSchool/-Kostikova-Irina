@@ -7,6 +7,7 @@ Gutter Width: 15px
 
 .section {
   margin-bottom: 18px;
+  *zoom: 1;
 }
 
 .section::after {
@@ -16,8 +17,6 @@ Gutter Width: 15px
   clear: both;
   visibility: hidden;
 }
-
-.section { *zoom: 1; }
 
 .section .firstcolumn,
 .section .firstcol {
