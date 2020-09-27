@@ -99,7 +99,7 @@ Gutter Width: 15px
 }
 
 .width1_4cols,
-.grid1_4cols  {
+.grid1_4cols {
   width: 2px;
 }
 
@@ -217,6 +217,7 @@ Gutter Width: 15px
 .grid7_3cols {
   width: 148px;
 }
+
 .width7_4cols,
 .grid7_4cols {
   width: 107px;
