@@ -111,8 +111,8 @@ table {
   border-spacing: 0;
 }
 
-body{
-  color: #000;
+body {
+  color: white;
   background-color: #dcdcdc;
 }
 
@@ -178,14 +178,14 @@ h2 {
   display: block;
   color: #fff;
   text-decoration: none;
-  font: bold 11px/11px Arial;
+  font: bold 11px/11px;
   text-transform: uppercase;
   padding: 10px 15px;
   border-right: 1px solid #fff;
 }
 
-.tabs li
-a:hover {
+.tabs
+li a:hover {
   background-color: #00b3ff;
 }
 
@@ -223,31 +223,31 @@ div.glyph_range {
 .size72 { font-size: 72px; }
 .size90 { font-size: 90px; }
 
-.psample_row1 {	height: 120px; }
+.psample_row1 {height: 120px;}
 
-.psample_row1 {
-  height: 120px;
-}
+.psample_row1 {height: 120px;}
 
-.psample_row2 {
-  height: 160px;
-}
-.psample_row3 {
-  height: 160px;
-}
+.psample_row2 {height: 160px;}
 
-.psample_row4 {
-  height: 160px;
-}
+.psample_row3 {height: 160px;}
+
+.psample_row4 {height: 160px;}
 
 .psample {
   overflow: hidden;
   position: relative;
 }
 
-.psample p{ line-height: 1.3em; display: block; overflow: hidden; margin: 0; }
+.psample
+p {
+  line-height: 1.3em;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+}
 
-.psample span{ margin-right: .5em; }
+.psample
+span { margin-right: .5em; }
 
 .white_blend {
   width: 100%;
@@ -441,9 +441,22 @@ code {
   padding: .6em .2em .2em;
 }
 
-#glyph_chart div p {position: absolute; left: 0; top: 0; display: block; text-align: center; font: bold 9px Arial, sans-serif; background-color: #3a768f; width: 100%; color: white; padding: 2px 0;}
+#glyph_chart
+div p {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  text-align: center;
+  font: bold 9px Arial, sans-serif;
+  background-color: #3a768f;
+  width: 100%;
+  color: white;
+  padding: 2px 0;
+}
 
-#glyphs h1 {
+#glyphs
+h1 {
   font-family: Arial, sans-serif;
 }
 
@@ -454,17 +467,27 @@ code {
 }
 
 #installing p,
-#glyphs p { line-height: 1.2em; margin-bottom: 18px; font: 13px Arial, sans-serif; }
+#glyphs
+p {
+  line-height: 1.2em;
+  margin-bottom: 18px;
+  font: 13px Arial, sans-serif;
+}
 
-#installing h3 {
+#installing
+h3 {
   font-size: 15px;
   margin-top: 18px;
 }
 
 /* @end */
 
-#rendering h1 {
+#rendering
+h1 {
   font-family: Arial, sans-serif;
 }
 
-.render_table td { font: 11px "Courier New", Courier, mono; vertical-align: middle; }
+.render_table
+td { font: 11px "Courier New", Courier, mono;
+vertical-align: middle;
+}
