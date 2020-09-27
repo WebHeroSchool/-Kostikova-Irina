@@ -488,6 +488,7 @@ h1 {
 }
 
 .render_table
-td { font: 11px "Courier New", Courier, mono;
-vertical-align: middle;
+td {
+  font: 11px "Courier New", Courier, mono;
+  vertical-align: middle;
 }
