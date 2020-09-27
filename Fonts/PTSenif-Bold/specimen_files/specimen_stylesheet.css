@@ -144,7 +144,8 @@ h2 {
   color: #fff;
 }
 
-#header span {
+#header
+span {
   color: #666;
 }
 
@@ -153,7 +154,8 @@ h2 {
   padding: 60px 20px 20px;
 }
 
-#footer p {
+#footer
+p {
   margin: 0;
   padding-top: 10px;
   padding-bottom: 50px;
@@ -167,14 +169,17 @@ h2 {
   background-color: #444;
 }
 
-.tabs li {
+.tabs
+li {
   float: left;
   margin: 0;
   overflow: hidden;
   background-color: #444;
 }
 
-.tabs li a {
+.tabs
+li,
+a {
   display: block;
   color: #fff;
   text-decoration: none;
@@ -185,11 +190,19 @@ h2 {
 }
 
 .tabs
-li a:hover {
+li,
+a:hover {
   background-color: #00b3ff;
 }
 
-.tabs li .active a {
+.tabs
+li {
+  color: weight;
+  background-color: #fff;
+}
+
+.active
+a {
   color: weight;
   background-color: #fff;
 }
@@ -275,7 +288,8 @@ span { margin-right: .5em; }
   margin-bottom: 0;
 }
 
-.sample_table td {
+.sample_table
+td {
   padding-top: 3px;
   padding-bottom: 5px;
   padding-left: 5px;
@@ -283,7 +297,8 @@ span { margin-right: .5em; }
   line-height: 1.2em;
 }
 
-.sample_table td:first-child {
+.sample_table
+td:first-child {
   background-color: #eee;
   text-align: right;
   padding-right: 5px;
@@ -327,7 +342,8 @@ code {
   white-space: nowrap;
 }
 
-#bodycomparison div {
+#bodycomparison
+div {
   font-size: 72px;
   line-height: 90px;
   display: inline;
@@ -335,7 +351,8 @@ code {
   padding: 0;
 }
 
-#bodycomparison div span {
+#bodycomparison
+div span {
   font: 10px;
   position: absolute;
   left: 0;
@@ -371,21 +388,24 @@ code {
 /* @group Layout page
  */
 
-#layout h1 {
+#layout
+h1 {
   font-size: 36px;
   line-height: 42px;
   font-weight: normal;
   font-style: normal;
 }
 
-#layout h2 {
+#layout
+h2 {
   font-size: 24px;
   line-height: 23px;
   font-weight: normal;
   font-style: normal;
 }
 
-#layout h3 {
+#layout
+h3 {
   font-size: 22px;
   line-height: 1.4em;
   margin-top: 1em;
@@ -393,30 +413,35 @@ code {
   font-style: normal;
 }
 
-#layout p.byline {
+#layout .byline
+p {
   font-size: 12px;
   margin-top: 18px;
   line-height: 12px;
   margin-bottom: 0;
 }
 
-#layout p {
+#layout
+p {
   font-size: 14px;
   line-height: 21px;
   margin-bottom: .5em;
 }
 
-#layout p.large {
+#layout .large
+p {
   font-size: 18px;
   line-height: 26px;
 }
 
-#layout .sidebar p {
+#layout .sidebar
+p {
   font-size: 12px;
   line-height: 1.4em;
 }
 
-#layout p.caption {
+#layout .caption
+p {
   font-size: 10px;
   margin-top: -16px;
   margin-bottom: 18px;
@@ -426,7 +451,8 @@ code {
 
 /* @group Glyphs */
 
-#glyph_chart div {
+#glyph_chart
+div {
   background-color: #d9f3ff;
   color: black;
   float: left;
