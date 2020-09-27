@@ -89,9 +89,6 @@ q {
   quotes: none;
 }
 
-blockquote::before
-blockquote::after
-q::before
 q::after {
   content: '';
   content: none;
@@ -114,7 +111,7 @@ table {
   border-spacing: 0;
 }
 
-body {
+body{
   color: #000;
   background-color: #dcdcdc;
 }
@@ -137,7 +134,7 @@ h2 {
 
 #container {
   width: 865px;
-  margin: 0px auto;
+  margin: auto;
 }
 
 #header {
@@ -181,20 +178,19 @@ h2 {
   display: block;
   color: #fff;
   text-decoration: none;
-  font: bold 11px/11px 'Arial';
+  font: bold 11px/11px Arial;
   text-transform: uppercase;
   padding: 10px 15px;
   border-right: 1px solid #fff;
 }
 
 .tabs li
-a: hover {
+a:hover {
   background-color: #00b3ff;
-
 }
 
 .tabs li .active a {
-  color:  #000;
+  color: weight;
   background-color: #fff;
 }
 
@@ -228,23 +224,30 @@ div.glyph_range {
 .size90 { font-size: 90px; }
 
 .psample_row1 {	height: 120px; }
-.psample_row1 {	height: 120px; }
-.psample_row2 {	height: 160px; }
-.psample_row3 {	height: 160px; }
-.psample_row4 {	height: 160px; }
+
+.psample_row1 {
+  height: 120px;
+}
+
+.psample_row2 {
+  height: 160px;
+}
+.psample_row3 {
+  height: 160px;
+}
+
+.psample_row4 {
+  height: 160px;
+}
 
 .psample {
   overflow: hidden;
   position: relative;
 }
 
-.psample p {
-  line-height: 1.3em;
-  display: block;
-  overflow: hidden;
-  margin: 0; }
+.psample p{ line-height: 1.3em; display: block; overflow: hidden; margin: 0; }
 
-.psample span { margin-right: .5em; }
+.psample span{ margin-right: .5em; }
 
 .white_blend {
   width: 100%;
@@ -263,14 +266,13 @@ div.glyph_range {
 }
 
 .fullreverse {
-  background:  #000;
-  color:  #fff;
+  background: black;
+  color:  white;
   margin-left: -20px;
   padding-left: 20px;
   margin-right: -20px;
   padding-right: 20px;
-  padding: 20px;
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 .sample_table td {
@@ -286,8 +288,7 @@ div.glyph_range {
   text-align: right;
   padding-right: 5px;
   padding-left: 0;
-  padding: 5px;
-  font: 11px/12px "Courier New", Courier, mono;
+  font: 11px/12px "Courier New", Courier;
 }
 
 code {
@@ -305,16 +306,16 @@ code {
   padding-bottom: 0;
 }
 
-.box  {
+.box {
   padding: 18px;
   margin-bottom: 18px;
-  background: #eee;
+  background: black;
 }
 
 .reverse,
 .reversed {
-  background:  #000 ;
-  color:  #fff ;
+  background:  black ;
+  color:  #white ;
   border: none;
 }
 
@@ -335,7 +336,7 @@ code {
 }
 
 #bodycomparison div span {
-  font: 10px Arial;
+  font: 10px;
   position: absolute;
   left: 0;
 }
@@ -440,23 +441,11 @@ code {
   padding: .6em .2em .2em;
 }
 
-#glyph_chart div p {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: block;
-  text-align: center;
-  font: bold 9px Arial, sans-serif;
-  background-color: #3a768f;
-  width: 100%;
-  color: #fff;
-  padding: 2px 0;
-}
+#glyph_chart div p {position: absolute; left: 0; top: 0; display: block; text-align: center; font: bold 9px Arial, sans-serif; background-color: #3a768f; width: 100%; color: white; padding: 2px 0;}
 
 #glyphs h1 {
   font-family: Arial, sans-serif;
 }
-/* @end */
 
 /* @group Installing */
 
@@ -465,11 +454,7 @@ code {
 }
 
 #installing p,
-#glyphs p {
-  line-height: 1.2em;
-  margin-bottom: 18px;
-  font: 13px Arial, sans-serif;
-}
+#glyphs p { line-height: 1.2em; margin-bottom: 18px; font: 13px Arial, sans-serif; }
 
 #installing h3 {
   font-size: 15px;
@@ -482,7 +467,4 @@ code {
   font-family: Arial, sans-serif;
 }
 
-.render_table td {
-  font: 11px "Courier New", Courier, mono;
-  vertical-align: middle;
-}
+.render_table td { font: 11px "Courier New", Courier, mono; vertical-align: middle; }
