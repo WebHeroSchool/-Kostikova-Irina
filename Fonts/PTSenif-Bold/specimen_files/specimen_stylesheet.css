@@ -225,23 +225,32 @@ div.glyph_range {
 .size72 { font-size: 72px; }
 .size90 { font-size: 90px; }
 
-.psample_row1 { height: 120px;}
+.psample_row1
+{ height: 120px;}
 
-.psample_row1 { height: 120px;}
+.psample_row1
+{ height: 120px;}
 
-.psample_row2 { height: 160px;}
+.psample_row2
+{ height: 160px;}
 
-.psample_row3 { height: 160px;}
+.psample_row3
+{ height: 160px;}
 
-.psample_row4 { height: 160px;}
+.psample_row4
+{ height: 160px;}
 
 .psample {
   overflow: hidden;
   position: relative;
 }
 
-.psample
-p { line-height: 1.3em; display: block; overflow: hidden; margin: 0; }
+.psample p {
+  line-height: 1.3em;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+}
 
 .psample
 span { margin-right: .5em; }
