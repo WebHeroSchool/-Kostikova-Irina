@@ -260,9 +260,7 @@ Gutter Width: 15px
 }
 
 .width10_4cols,
-.grid10_4cols  {
-  width: 160px;
-}
+.grid10_4cols { width: 160px; }
 
 .input_width10 {
   width: 679px;

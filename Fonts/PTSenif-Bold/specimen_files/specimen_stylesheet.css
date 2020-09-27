@@ -171,7 +171,7 @@ h2 {
 }
 
 .tabs li {
-  float:  left;
+  float: left;
   margin: 0;
   overflow: hidden;
   background-color: #444;
@@ -193,8 +193,7 @@ a: hover {
 
 }
 
-.tabs li
-.active a {
+.tabs li .active a {
   color:  #000;
   background-color: #fff;
 }
@@ -228,11 +227,11 @@ div.glyph_range {
 .size72 { font-size: 72px; }
 .size90 { font-size: 90px; }
 
-.psample_row1 {	height: 120px;}
-.psample_row1 {	height: 120px;}
-.psample_row2 {	height: 160px;}
-.psample_row3 {	height: 160px;}
-.psample_row4 {	height: 160px;}
+.psample_row1 {	height: 120px; }
+.psample_row1 {	height: 120px; }
+.psample_row2 {	height: 160px; }
+.psample_row3 {	height: 160px; }
+.psample_row4 {	height: 160px; }
 
 .psample {
   overflow: hidden;
@@ -243,12 +242,9 @@ div.glyph_range {
   line-height: 1.3em;
   display: block;
   overflow: hidden;
-  margin: 0;
-}
+  margin: 0; }
 
-.psample span {
-  margin-right: .5em;
-}
+.psample span { margin-right: .5em; }
 
 .white_blend {
   width: 100%;
@@ -279,7 +275,7 @@ div.glyph_range {
 
 .sample_table td {
   padding-top: 3px;
-  padding-bottom:5px;
+  padding-bottom: 5px;
   padding-left: 5px;
   vertical-align: middle;
   line-height: 1.2em;
@@ -330,7 +326,7 @@ code {
   white-space: nowrap;
 }
 
-#bodycomparison div{
+#bodycomparison div {
   font-size: 72px;
   line-height: 90px;
   display: inline;
@@ -338,7 +334,7 @@ code {
   padding: 0;
 }
 
-#bodycomparison div span{
+#bodycomparison div span {
   font: 10px Arial;
   position: absolute;
   left: 0;
@@ -356,17 +352,17 @@ code {
   position: relative;
 }
 
-.arialbody{
+.arialbody {
   font-family: Arial;
   position: relative;
 }
 
-.verdanabody{
+.verdanabody {
   font-family: Verdana;
   position: relative;
 }
 
-.georgiabody{
+.georgiabody {
   font-family: Georgia;
   position: relative;
 }
@@ -429,7 +425,7 @@ code {
 
 /* @group Glyphs */
 
-#glyph_chart div{
+#glyph_chart div {
   background-color: #d9f3ff;
   color: black;
   float: left;
@@ -456,7 +452,6 @@ code {
   color: #fff;
   padding: 2px 0;
 }
-
 
 #glyphs h1 {
   font-family: Arial, sans-serif;
@@ -486,6 +481,7 @@ code {
 #rendering h1 {
   font-family: Arial, sans-serif;
 }
+
 .render_table td {
   font: 11px "Courier New", Courier, mono;
   vertical-align: middle;
