@@ -144,10 +144,7 @@ h2 {
   color: #fff;
 }
 
-#header
-span {
-  color: #666;
-}
+#header span { color: #666; }
 
 #main_content {
   background-color: #fff;
@@ -169,8 +166,7 @@ p {
   background-color: #444;
 }
 
-.tabs
-li {
+.tabs li {
   float: left;
   margin: 0;
   overflow: hidden;
@@ -178,8 +174,7 @@ li {
 }
 
 .tabs
-li,
-a {
+li a {
   display: block;
   color: #fff;
   text-decoration: none;
@@ -190,13 +185,11 @@ a {
 }
 
 .tabs
-li,
-a:hover {
+li a:hover {
   background-color: #00b3ff;
 }
 
-.tabs
-li {
+.tabs li {
   color: weight;
   background-color: #fff;
 }
@@ -236,15 +229,15 @@ div.glyph_range {
 .size72 { font-size: 72px; }
 .size90 { font-size: 90px; }
 
-.psample_row1 {height: 120px;}
+.psample_row1 { height: 120px;}
 
-.psample_row1 {height: 120px;}
+.psample_row1 { height: 120px;}
 
-.psample_row2 {height: 160px;}
+.psample_row2 { height: 160px;}
 
-.psample_row3 {height: 160px;}
+.psample_row3 { height: 160px;}
 
-.psample_row4 {height: 160px;}
+.psample_row4 { height: 160px;}
 
 .psample {
   overflow: hidden;
@@ -252,12 +245,7 @@ div.glyph_range {
 }
 
 .psample
-p {
-  line-height: 1.3em;
-  display: block;
-  overflow: hidden;
-  margin: 0;
-}
+p { line-height: 1.3em; display: block; overflow: hidden; margin: 0; }
 
 .psample
 span { margin-right: .5em; }
@@ -329,8 +317,8 @@ code {
 
 .reverse,
 .reversed {
-  background:  black ;
-  color:  #white ;
+  background:  black;
+  color: white;
   border: none;
 }
 
@@ -342,8 +330,7 @@ code {
   white-space: nowrap;
 }
 
-#bodycomparison
-div {
+#bodycomparison div {
   font-size: 72px;
   line-height: 90px;
   display: inline;
@@ -351,8 +338,7 @@ div {
   padding: 0;
 }
 
-#bodycomparison
-div span {
+#bodycomparison div span {
   font: 10px;
   position: absolute;
   left: 0;
@@ -388,24 +374,21 @@ div span {
 /* @group Layout page
  */
 
-#layout
-h1 {
+#layout h1 {
   font-size: 36px;
   line-height: 42px;
   font-weight: normal;
   font-style: normal;
 }
 
-#layout
-h2 {
+#layout h2 {
   font-size: 24px;
   line-height: 23px;
   font-weight: normal;
   font-style: normal;
 }
 
-#layout
-h3 {
+#layout h3 {
   font-size: 22px;
   line-height: 1.4em;
   margin-top: 1em;
@@ -413,35 +396,30 @@ h3 {
   font-style: normal;
 }
 
-#layout .byline
-p {
+#layout .byline p {
   font-size: 12px;
   margin-top: 18px;
   line-height: 12px;
   margin-bottom: 0;
 }
 
-#layout
-p {
+#layout p {
   font-size: 14px;
   line-height: 21px;
   margin-bottom: .5em;
 }
 
-#layout .large
-p {
+#layout .large p {
   font-size: 18px;
   line-height: 26px;
 }
 
-#layout .sidebar
-p {
+#layout .sidebar p {
   font-size: 12px;
   line-height: 1.4em;
 }
 
-#layout .caption
-p {
+#layout .caption p {
   font-size: 10px;
   margin-top: -16px;
   margin-bottom: 18px;
@@ -451,8 +429,7 @@ p {
 
 /* @group Glyphs */
 
-#glyph_chart
-div {
+#glyph_chart div {
   background-color: #d9f3ff;
   color: black;
   float: left;
@@ -467,8 +444,7 @@ div {
   padding: .6em .2em .2em;
 }
 
-#glyph_chart
-div p {
+#glyph_chart div p {
   position: absolute;
   left: 0;
   top: 0;
@@ -481,8 +457,7 @@ div p {
   padding: 2px 0;
 }
 
-#glyphs
-h1 {
+#glyphs h1 {
   font-family: Arial, sans-serif;
 }
 
@@ -493,23 +468,20 @@ h1 {
 }
 
 #installing p,
-#glyphs
-p {
+#glyphs p {
   line-height: 1.2em;
   margin-bottom: 18px;
   font: 13px Arial, sans-serif;
 }
 
-#installing
-h3 {
+#installing h3 {
   font-size: 15px;
   margin-top: 18px;
 }
 
 /* @end */
 
-#rendering
-h1 {
+#rendering h1 {
   font-family: Arial, sans-serif;
 }
 
