@@ -17,9 +17,7 @@ Gutter Width: 15px
   visibility: hidden;
 }
 
-.section {
-  *zoom: 1;
-}
+.section { *zoom: 1; }
 
 .section .firstcolumn,
 .section .firstcol {
@@ -137,9 +135,7 @@ Gutter Width: 15px
 }
 
 .width3_4cols,
-.grid3_4cols  {
-  width: 37px;
-}
+.grid3_4cols { width: 37px; }
 
 .input_width3 {
   width: 189px;
@@ -216,7 +212,8 @@ Gutter Width: 15px
   width: 148px;
 }
 
-.width7_4cols, .grid7_4cols { width: 107px; }
+.width7_4cols,
+.grid7_4cols { width: 107px; }
 
 .input_width7 {
   width: 469px;
