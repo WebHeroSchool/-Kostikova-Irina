@@ -77,12 +77,11 @@ body {
   height: 3px;
   background: #0056ec;
   opacity: 0;
-  transition: opacity .5s width .5s;
+  transition: opacity .5s, width .5s;
 }
 
 .menu__item:hover {
   opacity: .5;
-  transition: all .3s;
 }
 
 .menu__item_active::after {
@@ -100,4 +99,24 @@ body {
 .menu__item_active::after {
   opacity: 1;
   width: 100%;
+}
+
+.main {
+  padding-top: 100px;
+  width: 37%;
+}
+
+.main__title {
+  font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
+}
+
+.main__subtitle {
+  Width: 367px;
+  margin: 0 0 41px 0;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button {
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
 }
