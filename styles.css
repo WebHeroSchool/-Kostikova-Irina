@@ -68,7 +68,7 @@ body {
   margin-right: 0;
 }
 
-.menu__item:after {
+.menu__item::after {
   position: absolute;
   display: block;
   content: '';
@@ -85,7 +85,7 @@ body {
   transition: all .3s;
 }
 
-.menu__item_active:after {
+.menu__item_active::after {
   position: absolute;
   display: block;
   content: '';
@@ -96,8 +96,8 @@ body {
   opacity: 0;
 }
 
-.menu__item:hover:after,
-.menu__item_active:after {
+.menu__item:hover::after,
+.menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
