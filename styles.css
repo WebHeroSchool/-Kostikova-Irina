@@ -8,13 +8,13 @@ body {
 
 .wrapper {
   margin: auto;
-  width: 56%;
+  width: 68%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 95px;
 }
 
 .logo,
@@ -103,7 +103,7 @@ body {
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 0 40% 100px 0;
   background: top right no-repeat url(img/mainimag.svg);
 }
 
@@ -117,7 +117,8 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
+  padding: 0 35% 0 0;
+  margin: 0 0 50px 0;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
