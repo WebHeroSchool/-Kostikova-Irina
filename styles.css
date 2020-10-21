@@ -255,14 +255,14 @@ body {
   .menu__item_s {
     width: 63px;
     height: 30px;
-    left: calc(47% - 63px/2);
+    left: calc(47% -63px/2);
     top: 186px;
   }
 
   .menu__item_ser {
     width: 113px;
     height: 30px;
-    left: calc(47% - 113px/2);
+    left: calc(cals(47%-113px) / 2);
     top: 246px;
   }
 
@@ -285,21 +285,21 @@ body {
   .menu__item_a {
     width: 77px;
     height: 30px;
-    left: calc(47% - 77px/2 - 2px);
+    left: calc(47% -77px / 2 -2px);
     top: 306px;
   }
 
   .menu__item_b {
     width: 59px;
     height: 30px;
-    left: calc(47% - 59px/2 - 2px);
+    left: calc(47% -59px/2 -2px);
     top: 366px;
   }
 
   .menu__item_c {
     width: 142px;
     height: 30px;
-    left: calc(47%-142px/2)-2.5px);
+    left: calc(47% -142px/2 -2.5px);
     top: 426px;
   }
 
