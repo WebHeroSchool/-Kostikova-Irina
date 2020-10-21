@@ -8,15 +8,6 @@
         <link rel="stylesheet" href="font.css">
         <link rel="stylesheet" href="styles.css">
   </head>
-  <input type="checkbox" id="checkbox">
-  <label for="checkbox">
-    <div class="container">
-      <div class="rectangle1"></div>
-      <div class="rectangle2"></div>
-      <div class="rectangle3"></div>
-    </div>
-  </label>
-
     <body class="home">
       <div class="wrapper">
         <header class="header">
@@ -25,24 +16,19 @@
             <div class="logo__circle logo__circle_color_blue"></div>
             <div class="logo__text">app.creation</div>
           </div>
-
-
-
-          <nav class="menu">
-            <a class="menu__item" href="#">start</a>
-            <a class="menu__item menu__item_active" href="#">services</a>
-            <a class="menu__item" href="#">about</a>
-            <a class="menu__item" href="#">blog</a>
-            <a class="menu__item" href="#">contact us</a>
-          </nav>
-
-
-            <!-- <div class="#" href="#">start</div>
-            <div class="#" href="#">services</div>
-            <div class="#" href="#">about</div>
-            <div class="#" href="#">blog</div>
-            <div class="#" href="#">contact us</div>
-          </div> -->
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <nav class="menu__box">
+              <a class="menu__item menu__item_s" href="#">start</a>
+              <a class="menu__item menu__item_active menu__item_ser" href="#">services</a>
+              <a class="menu__item menu__item_a" href="#">about</a>
+              <a class="menu__item menu__item_b" href="#">blog</a>
+              <a class="menu__item menu__item_c" href="#">contact&nbsp;us</a>
+            </nav>
+          </div>
         </header>
         <section class="main">
           <h1 class="main__title">Building an App
