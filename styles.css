@@ -246,6 +246,7 @@ body {
   .menu__item_c {
     position: absolute;
     display: block;
+    text-align: center;
     transition: opacity .5s;
     font: 500 30px/35px "Roboto", arial, helvetica, sans-serif;
     padding: 15px;
@@ -255,14 +256,14 @@ body {
   .menu__item_s {
     width: 63px;
     height: 30px;
-    left: calc(47% -63px/2);
+    left: 38%;
     top: 186px;
   }
 
   .menu__item_ser {
     width: 113px;
     height: 30px;
-    left: calc(cals(47%-113px) / 2);
+    left: 31%;
     top: 246px;
   }
 
@@ -285,21 +286,21 @@ body {
   .menu__item_a {
     width: 77px;
     height: 30px;
-    left: calc(47% -77px / 2 -2px);
+    left: 36.5%;
     top: 306px;
   }
 
   .menu__item_b {
     width: 59px;
     height: 30px;
-    left: calc(47% -59px/2 -2px);
+    left: 38.5%;
     top: 366px;
   }
 
   .menu__item_c {
     width: 142px;
     height: 30px;
-    left: calc(47% -142px/2 -2.5px);
+    left: 27.5%;
     top: 426px;
   }
 
