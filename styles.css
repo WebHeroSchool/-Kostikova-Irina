@@ -8,13 +8,13 @@ body {
 
 .wrapper {
   margin: auto;
-  width: 73%;
+  width: 68%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 90px;
+  margin-bottom: 95px;
 }
 
 #menu__toggle {
@@ -24,7 +24,7 @@ body {
 .logo,
 .menu__box {
   display: inline-block;
-  padding: 48px 0;
+  padding: 43px 0;
 }
 
 .logo {
@@ -110,7 +110,7 @@ body {
 .main {
   padding: 0 40% 100px 0;
   background: top right no-repeat url(img/mainimag.svg);
-  background-position-y: -15px;
+  background-position-y: -20px;
 }
 
 .main__title {
