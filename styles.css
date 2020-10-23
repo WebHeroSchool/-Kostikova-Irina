@@ -261,7 +261,7 @@ body {
     width: 25px;
     height: 3px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
   }
 
   .menu__btn > span,
@@ -285,6 +285,8 @@ body {
   }
 
   .menu__box {
+    z-index: 1;
+    background-color: #fff;
     display: block;
     position: fixed;
     visibility: hidden;
@@ -295,7 +297,6 @@ body {
     margin: 0;
     padding: 86px 0;
     text-align: center;
-    background-color: #fff;
   }
 
   .main__item {
@@ -370,7 +371,7 @@ body {
     width: 142px;
     height: 30px;
     left: 26%;
-    top: 405px;
+    top: 409px;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
