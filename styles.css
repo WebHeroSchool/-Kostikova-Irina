@@ -323,7 +323,20 @@ body {
     top: 7px;
   }
 
-  
+  .menu__box {
+    z-index: 1;
+    background-color: #fff;
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    transition: opacity .2s, width .2s;
+    top: 0;
+    width: 375px;
+    height: 100%;
+    margin: 0;
+    padding: 86px 0;
+    text-align: center;
+  }
 
   .menu__item {
     position: absolute;
