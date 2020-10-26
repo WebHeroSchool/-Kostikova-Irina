@@ -141,7 +141,7 @@ body {
   opacity: .5;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1600px) {
   .wrapper {
     margin: auto;
     width: 80%;
@@ -152,10 +152,8 @@ body {
   }
 
   .menu__item {
-    position: absolute;
-    top: -3px;
-    margin-right: 26px;
-    font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+    margin-right: 30px;
+    font: 500 18px/20px "Roboto", arial, helvetica, sans-serif;
   }
 
   .main {
@@ -167,7 +165,6 @@ body {
     padding-bottom: 13%;
     background-position-x: 99%;
   }
-
 
   .main__title {
     margin: 0 0 40px 0;
@@ -193,7 +190,49 @@ body {
     }
   }
 
-@media (max-width: 1000px) {
+  @media (max-width: 1000px) {
+    .wrapper {
+      margin: auto;
+      width: 90%;
+    }
+
+    .header {
+      margin-bottom: 9%;
+    }
+
+    .menu__item {
+      margin-right: 30px;
+      font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    }
+
+    .main {
+      width: 40%;
+      padding-right: 60%;
+      background-size: 300px;
+      background-position: top right;
+      padding-top: 4%;
+      padding-bottom: 13%;
+      background-position-x: 99%;
+    }
+
+    .main__title {
+      margin: 0 0 40px 0;
+      font: bold 35px/39px "pt_serif", arial, helvetica, sans-serif;
+    }
+
+    .main__subtitle {
+      margin: 0 0 50px 0;
+      font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+      max-width: 455px;
+    }
+
+    .main__button {
+      font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+      padding: 16px 20px;
+    }
+  }
+
+@media (max-width: 600px) {
   .wrapper {
     margin: auto;
     width: 68%;
@@ -302,7 +341,6 @@ body {
   .main__item {
     position: absolute;
     display: block;
-
   }
 
   .menu__item_active::after {
@@ -392,5 +430,4 @@ body {
     visibility: visible;
     left: 0;
   }
-
 }
