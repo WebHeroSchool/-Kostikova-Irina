@@ -64,7 +64,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 28px;
   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -148,12 +148,20 @@ body {
   }
 
   .header {
-    margin-bottom: 9%;
+    margin-bottom: 8%;
   }
 
+  .menu__box {
+    display: inline-block;
+    padding: 50px 0;
+  }
   .menu__item {
-    margin-right: 30px;
+    margin-right: 24px;
     font: 500 18px/20px "Roboto", arial, helvetica, sans-serif;
+  }
+
+  .menu__item:last-child {
+    margin-right: 7px;
   }
 
   .main {
@@ -168,6 +176,7 @@ body {
 
   .main__title {
     margin: 0 0 40px 0;
+    margin-top: 10px;
     font: bold 66px/87px "pt_serif", arial, helvetica, sans-serif;
   }
 
@@ -187,6 +196,10 @@ body {
   .wrapper {
     margin: auto;
     width: 91%;
+  }
+
+  .menu__item {
+    margin-right: 26px;
   }
 }
 
@@ -268,6 +281,7 @@ body {
     max-width: 100%;
     margin-bottom: 36px;
     margin-top: -10px;
+    padding: 0 20px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
 
