@@ -252,10 +252,6 @@ body {
     width: 68%;
   }
 
-  .menu__box {
-    display: none;
-  }
-
   .header {
     margin-bottom: -45px;
     margin-top: 20px;
@@ -339,6 +335,7 @@ body {
   }
 
   .menu__box {
+    display: none;
     z-index: 1;
     background-color: #fff;
     display: block;
