@@ -2,8 +2,18 @@
   font-family: 'Roboto', sans-serif;
 }
 
+@keyframes change-background {
+  50% {
+    background: #ECF3FF;
+  }
+  100% {
+    background: ##E5E5E5;
+  }
+}
+
 body {
   margin: 0;
+  animation: change-background 6s ease infinite;
 }
 
 .wrapper {
