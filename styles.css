@@ -4,10 +4,10 @@
 
 @keyframes change-background {
   50% {
-    background: #ECF3FF;
+    background: #ecf3ff;
   }
   100% {
-    background: ##E5E5E5;
+    background: ##e5e5e5;
   }
 }
 
@@ -162,7 +162,6 @@ body {
   }
 
   .menu__box {
-    display: inline-block;
     padding: 50px 0;
   }
 
@@ -205,7 +204,6 @@ body {
 
 @media (max-width: 1360px) {
   .wrapper {
-    margin: auto;
     width: 91%;
   }
 
@@ -216,7 +214,6 @@ body {
 
 @media (max-width: 1000px) {
   .wrapper {
-    margin: auto;
     width: 90%;
   }
 
@@ -233,10 +230,6 @@ body {
     width: 40%;
     padding-right: 60%;
     background-size: 300px;
-    background-position: top right;
-    padding-top: 4%;
-    padding-bottom: 13%;
-    background-position-x: 99%;
   }
 
   .main__title {
@@ -258,7 +251,6 @@ body {
 
 @media (max-width: 600px) {
   .wrapper {
-    margin: auto;
     width: 68%;
   }
 
