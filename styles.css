@@ -21,7 +21,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 86px;
 }
 
 #menu__toggle {
@@ -123,12 +123,15 @@ body {
 }
 
 .main {
-  padding: 0 40% 100px 0;
   background: top right no-repeat url(img/mainimag.svg);
-  background-position-y: -16px;
+  padding: 0 40% 100px 0;
+  background-position: top right;
+  padding-top: 1%;
 }
 
 .main__title {
+  margin: 0 0 35px 0;
+  margin-top: 10px;
   font: bold 50px/66px pt_serif, arial, helvetica, sans-serif;
 }
 
@@ -163,15 +166,15 @@ body {
   }
 
   .header {
-    margin-bottom: 8%;
+    margin-bottom: 9%;
   }
 
   .menu__box {
-    padding: 50px 0;
+    padding: 30px 0;
   }
 
   .menu__item {
-    margin-right: 24px;
+    margin-right: 27px;
     font: 500 18px/20px "Roboto", arial, helvetica, sans-serif;
   }
 
@@ -190,7 +193,7 @@ body {
   }
 
   .main__title {
-    margin: 0 0 40px 0;
+    margin: 0 0 35px 0;
     margin-top: 10px;
     font: bold 66px/87px "pt_serif", arial, helvetica, sans-serif;
   }
@@ -207,7 +210,7 @@ body {
   }
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 1300px) {
   .wrapper {
     width: 91%;
   }
@@ -217,7 +220,7 @@ body {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .wrapper {
     width: 90%;
   }
@@ -235,6 +238,8 @@ body {
     width: 40%;
     padding-right: 60%;
     background-size: 300px;
+    padding-bottom: 13%;
+    background-position: top right;
   }
 
   .main__title {
@@ -255,6 +260,26 @@ body {
 }
 
 @media (max-width: 600px) {
+  .wrapper {
+    width: 80%;
+  }
+
+  .logo__text {
+    display: none;
+  }
+
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 380px;
+    background-position: top center;
+    position: absolute;
+    width: 380px;
+    height: 239px;
+  }
+}
+
+@media (max-width: 400px) {
   .wrapper {
     width: 68%;
   }
